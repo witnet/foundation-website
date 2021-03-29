@@ -4,16 +4,60 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'new-website',
+    title: 'Witnet Foundation',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'A non-profit dedicated to stewarding the advancement of the Witnet oracle protocol and ecosystem, with a focus on fostering research and development of technologies that enhance the freedom of the individual.',
+      },
+      { name: 'theme-color', content: '#122135' },
+      { name: 'robots', content: 'index, follow' },
+      { name: 'og:type', content: 'article' },
+      { name: 'og:title', content: 'Witnet Foundation' },
+      {
+        name: 'og:description',
+        content:
+          'A non-profit dedicated to stewarding the advancement of the Witnet oracle protocol and ecosystem, with a focus on fostering research and development of technologies that enhance the freedom of the individual.',
+      },
+      { name: 'og:image', content: '/favicon-192x192.png' },
+      { name: 'og:url', content: 'https://witnet.foundation' },
+      { name: 'og:locale:alternate', content: 'es_ES' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'canonical', href: 'https://witnet.foundation' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon-16x16.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon-32x32.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '96x96',
+        href: '/favicon-96x96.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '192x192',
+        href: '/favicon-192x192.png',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -44,7 +88,7 @@ export default {
 
   i18n: {
     // add SEO attributes in layout head for better performance
-    seo: false,
+    seo: true,
     locales: [
       {
         code: 'en',

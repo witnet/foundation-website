@@ -1,3 +1,23 @@
 {
-    "hello": "hola"
+    "header": {
+        "logoAlt": "Witnet Foundation"
+    },
+    "mission": {
+        "title": "Misión",
+        "statement": "La Witnet Foundation es una organización sin ánimo de lucro dedicada a procurar el avance del protocolo y el ecosistema de Witnet, así como otras tecnologías de Web3, enfocándose en facilitar la investigación y desarrolllo de tecnologías que potencian la descentralización de las infraestructuras de comunicación y financieras en pos de dar más libertad al individuo."
+    },
+    "aboutWitnet": {
+        "title": "Qué es Witnet",
+        "p1": "Witnet es un protocolo de red que permite que computadores operados independientemente colaboren en la recolección y agregación segura de datos, así como en proveer esa información a sistemas de smart contracts de tal forma que los datos no puedan ser manipulados.",
+        "p2": "Este tipo de tecnologías, comúnmente llamadas \"oráculos\", son unas de las piedras angulares a la hora de construir smart contracts que operen con datos del mundo real. Sin un oráculo fiable, los smart contracts pueden ser vulnerables a hackeo, corrupción e incluso pérdidas económicas.",
+        "p3": "Witnet es un oráculo de última generación que aprovecha los últimos avances en criptografía y criptoeconomía para dotar a los smart contracts de entradas de datos seguras."
+    },
+    "contact": {
+        "title": "Contacto",
+        "p1": "Puede contactarnos en {0}."
+    },
+    "footer": {
+        "rights": "©{0} Witnet Foundation. Ningún derecho reservado ({1}).",
+        "license": "Licencia Creative Commons CC0"
+    }
 }

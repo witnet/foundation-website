@@ -1,4 +1,6 @@
-# new-website
+# Witnet Foundation Website
+
+Accessible at https://witnet.foundation
 
 ## Build Setup
 
