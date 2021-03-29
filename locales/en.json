@@ -1,3 +1,23 @@
 {
-    "hello": "hello"
+    "header": {
+        "logoAlt": "Witnet Foundation"
+    },
+    "mission": {
+        "title": "Mission",
+        "statement": "Witnet Foundation is a non-profit dedicated to stewarding the advancement of the Witnet oracle protocol and ecosystem, as well as the broader Web3 space, with a focus on fostering research and development of technologies that enhance the decentralization of communications and financial infrastructure in search of more freedom for the individual."
+    },
+    "aboutWitnet": {
+        "title": "What is Witnet",
+        "p1": "Witnet is a network protocol that enables independently operated computers to collaborate in retrieving and aggregating data securely, and to provide that information to smart contract systems in a tamper resistant way.",
+        "p2": "These type of technologies, commonly known as \"oracles\", are one of the most important cornerstones when building smart contracts that operate on real world data. Without a reliable oracle, smart contracts can be vulnerable to hacks, corruption and monetary loss.",
+        "p3": "Witnet is a next generation decentralized oracle that leverages state-of-the-art cryptographic and cryptoeconomic techniques to provide  smart contracts with secure data input."
+    },
+    "contact": {
+        "title": "Contact",
+        "p1": "You can reach us at {0}."
+    },
+    "footer": {
+        "rights": "©{0} Witnet Foundation. No Rights Reserved ({1}).",
+        "license": "CC0 Creative Commons License"
+    }
 }
